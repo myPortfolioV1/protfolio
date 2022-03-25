@@ -4,62 +4,58 @@ const header = {
   title: 'My portfolio.',
 }
 
+const profile =`I consider IT world as passion, I have worked on a
+respectful number of projects as SCRUM master
+which allowed me to sharpen my technical skills
+and most importantly, my soft skills. I am still learning
+and exploring this wide world and motivated
+to be my best version.
+`
+const mygit = "https://github.com/aminejelass"
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Med Amine Jelassi',
   role: 'full stack developper',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: profile ,
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/amine-jelassi/',
+    github: mygit,
   },
+  image : "https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/271929437_10215645295883895_6470745496118156291_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Cm8eLVQFgD0AX_C9kyJ&_nc_ht=scontent.ftun9-1.fna&oh=00_AT_CCYtMG7iQwnjW6D-neIMBaYHcgzSsz1oXY5g6JRsQAg&oe=624201BC"
 }
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'JOBIFY',
+    tasks : ["trello board","github conflict management of 5 contributors","Data Base schema","social authentication","twilio" , "google maps API" , "firebase files upload" , "integration payement API"],
+    position : "SCRUM Master",
+    team : [0,0,0,0,0] ,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    `an app mobile that offer to ower 20% youth population a mini jobs that match their availability
+    to companies to hire a trusted worker regarding to their
+    previous feedbacks
+    `,
+    stack: ['react Native', 'mysql', 'express js' ,'node mailer' , "JWT" , "google maps API" , "firebase" , "cloudinary"  ],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: mygit,
   },
   {
-    name: 'Project 2',
+    name: 'JOBIFY',
+    tasks : ["trello board","github conflict management of 5 contributors","Data Base schema","social authentication","twilio" , "google maps API" , "firebase files upload" , "integration payement API"],
+    position : "SCRUM Master",
+    team : [0,0,0,0,0] ,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React', 'redux' ] ,
+    `an app mobile that offer to ower 20% youth population a mini jobs that match their availability
+    to companies to hire a trusted worker regarding to their
+    previous feedbacks
+    `,
+    stack: ['react Native', 'mysql', 'express js' ,'node mailer' , "JWT" , "google maps API" , "firebase" , "cloudinary"  ],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React', 'redux' ] ,
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+    livePreview: mygit,
+  }
 ]
 
 const skills = [
@@ -81,7 +77,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'aminejelassi95@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
