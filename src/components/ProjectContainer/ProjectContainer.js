@@ -1,12 +1,15 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
+
 import './ProjectContainer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ProjectContainer = ({ project }) => (
   <div className='project' > 
-    <i className="fa-solid fa-acorn"></i>
+
+      <p>role : {project.position}</p> <p>team of {project.team.length}</p>
+      <FontAwesomeIcon icon={["fal", "coffee"]} size="6x"/>
     <h3 style = {{color : "	#FF4500"}}>{project.name}</h3>
     
     <p className='project__description'>{project.description}</p>   
