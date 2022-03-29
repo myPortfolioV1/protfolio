@@ -7,8 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ProjectContainer = ({ project }) => (
   <div className='project' > 
+       <img style ={{width : 150 , height : 150 , borderRadius : 155}} alt="project" src ={project.image}/>
 
-      <p>role : {project.position}</p> <p>team of {project.team.length}</p>
+      <p>role : {project.position}</p> | <p>team of {project.team.length}</p>
       <FontAwesomeIcon icon={["fal", "coffee"]} size="6x"/>
     <h3 style = {{color : "	#FF4500"}}>{project.name}</h3>
     

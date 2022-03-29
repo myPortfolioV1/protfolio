@@ -40,8 +40,10 @@ const projects = [
     previous feedbacks
     `,
     stack: ['react Native', 'mysql', 'express js' ,'node mailer' , "JWT" , "google maps API" , "firebase" , "cloudinary"  ],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/theFourthFive',
     livePreview: mygit,
+    image : "https://images-platform.99static.com//xjMAot8gseExfFvALMsP1Ukov1Y=/186x177:777x768/fit-in/500x500/99designs-contests-attachments/79/79173/attachment_79173468",
+    repo : "https://github.com/theFourthFive"
   },
   {
     name: 'JOBIFY',
@@ -56,6 +58,7 @@ const projects = [
     stack: ['react Native', 'mysql', 'express js' ,'node mailer' , "JWT" , "google maps API" , "firebase" , "cloudinary"  ],
     sourceCode: 'https://github.com',
     livePreview: mygit,
+    image : "https://images-platform.99static.com//xjMAot8gseExfFvALMsP1Ukov1Y=/186x177:777x768/fit-in/500x500/99designs-contests-attachments/79/79173/attachment_79173468"
   }
 ]
 
