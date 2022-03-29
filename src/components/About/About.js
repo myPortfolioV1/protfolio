@@ -4,11 +4,13 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, social , picture} = about
 
   return (
     <div className='about center'>
+      <img style={{width : 200 , height : 200 , borderRadius : 150 , margin : 50 , }} src={picture}alt="myimage"/>
       {name && (
+        
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
         </h1>

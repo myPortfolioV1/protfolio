@@ -14,7 +14,10 @@ const Navbar = () => {
   const toggleNavList = () => setShowNavList(!showNavList)
 
   return (
+    <div>
+      
     <nav className='center nav'>
+        
       <ul
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
@@ -73,7 +76,12 @@ const Navbar = () => {
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
+    
     </nav>
+    
+
+    </div>
+ 
   )
 }
 
