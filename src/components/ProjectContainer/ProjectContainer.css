@@ -14,16 +14,19 @@
 
 .project__description {
   margin-top: 2em ; 
+  margin-bottom: 2em;
 
 }
-
+.project__tasks{
+  margin-top: 2em ;
+}
 .project__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
   background :rgb(235, 235, 235);
-  border-radius: 0.8pc;
+  border-radius: 2pc;
 }
 
 .project__stack-item {
@@ -33,7 +36,16 @@
   color: var(--clr-fg-alt);
   background-color: rgb(241, 241, 241);
 }
+.project_task{
 
+  justify-content: center;
+  margin: 1.2em 0;
+  background :rgb(235, 235, 235);
+  border-radius: 0.8pc;
+}
+.project_task_item{
+  list-style-type: square;
+}
 .project .link--icon {
   margin-left: 0.5em;
 }

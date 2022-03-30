@@ -1,17 +1,30 @@
+import { useState } from 'react';
 import { contact } from '../../portfolio'
 import './Contact.css'
+import form from "./EmalForm";
 
 const Contact = () => {
+
+  const [EmailMenu , setEmailMenu] = useState(false);
+
+  const toggle=()=>{
+    setEmailMenu(()=>!EmailMenu)
+  }
+
   if (!contact.email) return null
+ 
+ 
+
 
   return (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
-      <a href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline'>
+
+        <button type='button' onClick={()=>toggle()} className='btn btn--outline'>
           Email me
-        </span>
-      </a>
+        </button>
+        {EmailMenu?form():""}
+    
     </section>
   )
 }
