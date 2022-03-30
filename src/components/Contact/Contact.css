@@ -37,7 +37,7 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("") no-repeat center;
+	background: url("https://st2.depositphotos.com/2904097/6712/v/450/depositphotos_67127929-stock-illustration-vector-mail-icon.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -54,7 +54,7 @@ body{
 }
 
 .left{
-	background: url("") no-repeat center;
+	background: url("https://blog.aweber.com/wp-content/uploads/2005/03/email-deliverability-tips-to-get-your-message-to-the-inbox_featured-1200x675-1.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -63,13 +63,13 @@ body{
 	padding: 25px 40px;
 }
 
-h3{
+h4{
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
 }
 
-h3:after{
+h4:after{
 	content: '';
     position: absolute;
     left: 50%;
