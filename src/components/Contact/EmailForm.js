@@ -7,19 +7,24 @@ const Form =()=>{
     const [message,setMessage] = useState("")
     
     const ChangeHandler=(e)=>{
-      console.log(e.target.name)
-      console.log(e.target.value)
-      switch(e.taget.name){
-        case "name" : console.log("e.event.value");
-        break;
-        case "Email" : setMail(()=>e.target.value);
-        break;
-        case "phone" : setPhone(()=>e.target.value);
-        break;
-        case "message" : setMessage(()=>e.target.value);
-        break;
-        default : console.log(e.target);
-      }   
+      console.log({name,mail,phone,message})
+      if(e.target.name ==="name")
+      {
+        setName(()=>e.target.value)
+      }
+      if(e.target.name ==="Email")
+      {
+        setMail(()=>e.target.value)
+      }
+      if(e.target.name ==="phone")
+      {
+        setPhone(()=>e.target.value)
+      }
+      if(e.target.name ==="message")
+      {
+        setMessage(()=>e.target.value)
+      }
+      
 
 
     }
