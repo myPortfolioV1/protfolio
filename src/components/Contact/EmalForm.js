@@ -3,7 +3,7 @@
   <div className="contact-box">
     <div className="left" />
     <div className="right">
-      <h3 >Contact Us</h3>
+      <h4 >Email me</h4>
       <input type="text" className="field" placeholder="Your Name" />
       <input type="text" className="field" placeholder="Your Email" />
       <input type="text" className="field" placeholder="Phone" />

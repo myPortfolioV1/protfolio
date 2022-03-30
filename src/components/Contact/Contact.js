@@ -6,7 +6,10 @@ import form from "./EmalForm";
 const Contact = () => {
 
   const [EmailMenu , setEmailMenu] = useState(false);
-
+  const [name,setName] = useState("")
+  const [mail,setMail] = useState("")
+  const [message,setMessage] = useState("")
+  
   const toggle=()=>{
     setEmailMenu(()=>!EmailMenu)
   }
