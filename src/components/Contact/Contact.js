@@ -1,15 +1,12 @@
 import { useState } from 'react';
 import { contact } from '../../portfolio'
 import './Contact.css'
-import form from "./EmalForm";
+import Form from "./EmailForm";
 
 const Contact = () => {
 
   const [EmailMenu , setEmailMenu] = useState(false);
-  const [name,setName] = useState("")
-  const [mail,setMail] = useState("")
-  const [message,setMessage] = useState("")
-  
+
   const toggle=()=>{
     setEmailMenu(()=>!EmailMenu)
   }
@@ -26,7 +23,7 @@ const Contact = () => {
         <button type='button' onClick={()=>toggle()} className='btn btn--outline'>
           Email me
         </button>
-        {EmailMenu?form():""}
+        {EmailMenu?<Form/>:""}
     
     </section>
   )
