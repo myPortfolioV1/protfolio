@@ -46,20 +46,62 @@ const projects = [
     repo : "https://github.com/theFourthFive"
   },
   {
-    name: 'JOBIFY',
-    tasks : ["trello board","github conflict management of 5 contributors","Data Base schema","social authentication","twilio" , "google maps API" , "firebase files upload" , "integration payement API"],
+    name: 'bit-optimiser',
+    tasks : [`github management and conflicts solving
+    ` ,`setting Data Base schema
+    `,`authentication process` ,`cloudinary files upload
+    `,`google passport
+    `],
     position : "SCRUM Master",
     team : [0,0,0,0,0] ,
     description:
-    `an app mobile that offer to ower 20% youth population a mini jobs that match their availability
-    to companies to hire a trusted worker regarding to their
-    previous feedbacks
+    `a platform that allows users to rent their unneeded tools and
+    make money from them    
     `,
-    stack: ['react Native', 'mysql', 'express js' ,'node mailer' , "JWT" , "google maps API" , "firebase" , "cloudinary"  ],
-    sourceCode: 'https://github.com',
+    stack: ['Vue js', 'mongoDB', 'express js' ,'node mailer' , "firebase"],
+    sourceCode: 'https://github.com/Bit-Optimizers',
     livePreview: mygit,
-    image : "https://images-platform.99static.com//xjMAot8gseExfFvALMsP1Ukov1Y=/186x177:777x768/fit-in/500x500/99designs-contests-attachments/79/79173/attachment_79173468"
+    image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtslWiX16yKkmh00sa69ZPssIkame9UG_zQ&usqp=CAU",
+    repo : "https://github.com/Bit-Optimizers"
+  },
+  {
+    name: 'E LEARNING PLATEFORM',
+    tasks : [`github management and conflicts solving ` , `setting Data Base schema` , `JWT authentication API
+    ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
+    position : "SCRUM Master",
+    team : [0,0,0,0,0] ,
+    description:
+    `A plate form that allows for teachers
+    to post free/premium courses in all digital forms
+    (videos, text, PDF...)
+    and to students check, buy, and interact with posts
+    by likes, comments, vues and rating
+        
+    `,
+    stack: ['angular', 'mongoDB', 'express js' ,'node mailer' , "firebase"],
+    sourceCode: 'https://github.com/team-glory',
+    livePreview: mygit,
+    image : "https://s.tmimgcdn.com/scr/800x500/83500/e-learning-logo-template_83519-5-original.jpg",
+    repo : "https://github.com/Bit-Optimizers"
+  },
+  {
+    name: 'G2A tunisia',
+    tasks : [`github management and conflicts solving ` , `setting Data Base schema` , `JWT authentication API
+    ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
+    position : "SCRUM Master",
+    team : [0,0,0,0,0] ,
+    description:
+    `A platform that allows for gamers to :
+    sell and exchange games by a secure payment process
+    that protect them from scammers    
+    `,
+    stack: ['react', 'mySQL', 'express js' ,'node mailer' , "cloudinary"],
+    sourceCode: 'https://github.com/teamFivee',
+    livePreview: mygit,
+    image : "https://avatars.githubusercontent.com/u/95681015?s=200&v=4",
+    repo : "https://github.com/Bit-Optimizers"
   }
+
 ]
 
 const skills = [
