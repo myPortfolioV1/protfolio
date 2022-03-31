@@ -1,5 +1,6 @@
 import { useState } from 'react';
-  
+import axios from 'axios'
+
 const Form =()=>{
     const [name,setName] = useState("")
     const [mail,setMail] = useState("")
@@ -7,7 +8,7 @@ const Form =()=>{
     const [message,setMessage] = useState("")
     
     const ChangeHandler=(e)=>{
-      console.log({name,mail,phone,message})
+   
       if(e.target.name ==="name")
       {
         setName(()=>e.target.value)
@@ -24,10 +25,15 @@ const Form =()=>{
       {
         setMessage(()=>e.target.value)
       }
-      
-
-
     }
+ 
+ const sendMail= async ()=>{
+   const body = {name,mail,phone,message}
+
+    const res = await axios.post("http://localhost:5000/mail",body)
+    console.log(res.data)
+ }
+
   
  return (<div className="container">
   <div className="contact-box">
@@ -38,7 +44,7 @@ const Form =()=>{
       <input type="text" className="field" name ="Email" onChange={ChangeHandler} placeholder="Your Email"/>
       <input type="text" className="field" Name ="phone" onChange={ChangeHandler} placeholder="Phone" />
       <textarea placeholder="Message" name="message" onChange={ChangeHandler} className="field" />
-      <button type="button" className="bttn">Send</button>
+      <button type="button" className="bttn" onClick={sendMail} >Send</button>
     </div>
   </div>
 </div>)
