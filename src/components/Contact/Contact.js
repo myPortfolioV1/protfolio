@@ -23,11 +23,16 @@ const Contact = () => {
   return (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
-     <div>  <LocalPhoneIcon/> 20 669 058 </div>
-      <div> <AlternateEmailIcon/> aminejelassi95@gmail.com </div>
-      <div><LinkedInIcon/> linkedin.com/in/amine-jelassi</div>
+      
+     <div  className="parent">
+     <div>  <LocalPhoneIcon/></div><p>20 669 058</p>
+      <div> <AlternateEmailIcon/></div>
+      <p>aminejelassi95@gmail.com</p>
+      <div><LinkedInIcon/></div>
+     <p> https://www.linkedin.com/in/amine-jelassi/ </p>
+     </div> 
        
-        <button type='button' onClick={()=>toggle()} className='btn btn--outline'>
+        <button type='button' style={{margin : "25px"}} onClick={()=>toggle()} className='btn btn--outline'>
           Email me
         </button>
         {EmailMenu?<Form/>:""}

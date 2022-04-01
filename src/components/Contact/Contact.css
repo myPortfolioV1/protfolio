@@ -120,3 +120,14 @@ textarea{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
 }
+
+.parent {
+	display: grid; 
+	grid-template-columns: 0.3fr 3.2fr; 
+	grid-template-rows: 2fr 2fr 2fr; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+	  ". ."
+	  ". ."
+	  ". ."; 
+  }
