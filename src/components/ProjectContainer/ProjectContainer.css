@@ -49,3 +49,95 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+
+
+
+/* show less more  */
+.showless {
+  display: inline-block;
+  border-color: #3b3b3b;
+  border-radius: 2pc;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width:  100%;
+  height : 15 ;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.showless:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.showless:hover span {
+  padding-right: 25px;
+}
+
+.showless span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.showless span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+
+
+/* show more button  */
+
+.showmore {
+  display: inline-block;
+  border-radius: 2pc;
+  background-color: #ece2df;
+  border: none;
+  color: #3b3b3b;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width:  100%;
+  height : 15 ;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.showmore:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.showmore:hover span {
+  padding-right: 25px;
+}
+
+.showmore span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.showmore span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
