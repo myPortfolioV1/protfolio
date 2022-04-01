@@ -1,3 +1,4 @@
+import React, {useState} from 'react'
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
@@ -6,15 +7,19 @@ import AccountTreeIcon from "@material-ui/icons/AccountTree"
 import './ProjectContainer.css'
 
 
-const ProjectContainer = ({ project }) => (
-  <div className='project' > 
-       <img style ={{width : 150 , height : 150 , borderRadius : 155}} alt="project" src ={project.image}/>
+const ProjectContainer = ({ project }) => {
+  
+  const [more,setMore]=useState(false)
+  
 
-    <h3 style = {{color : "	#FF4500"}}>{project.name}</h3>
-   <p>role : {project.position} </p> _________ <p>team project</p>  {project.team.map(()=><PersonIcon/>)} <p>{project.team.length} contributors</p><AccountTreeIcon/>
-    <p className='project__description'>{project.description}</p>  
-    <h3 style = {{color : "	#FF4500"}}>tasks </h3>
-    <ul className="project_task">
+  const getmore=()=>{
+     setMore(()=>!more)
+  }
+
+  const showMore=()=>(
+    <>
+     <h3 style = {{color : "	#FF4500"}}>tasks </h3>
+         <ul className="project_task">
       {project.tasks.map(task=><li className="project_task_item" style = {{position : "floatLeft"}}>{task}</li>)}
     </ul> 
     <p style={{paddingTop : 25 , fontWeight : "bold" , color : "#FF8C00"}}>Technologies</p>
@@ -46,8 +51,36 @@ const ProjectContainer = ({ project }) => (
       >
         <LaunchIcon />
       </a>
-    )}
+    )}      
+    </>
+  )
+
+const button = ()=>{
+  let butt
+  if(!more)
+  {
+    butt = <button onClick={getmore} className="showmore" type="button" ><span>show more </span></button>
+  }
+  else{
+
+    butt = <button onClick={getmore} className="showless" type="button" ><span>show less </span></button>
+  }
+
+  return butt
+
+}
+   
+  return(
+  <div className='project' > 
+       <img style ={{width : 150 , height : 150 , borderRadius : 155}} alt="project" src ={project.image}/>
+
+    <h3 style = {{color : "	#FF4500" , margin : "15px"}}>{project.name}</h3>
+   <p>role : {project.position} </p> _________ <p>team project</p>  {project.team.map(()=><PersonIcon/>)} <p>{project.team.length} contributors</p><AccountTreeIcon/>
+    <p className='project__description'>{project.description}</p>  
+   
+    {more ?showMore():""}
+    {button()}
   </div>
-)
+)}
 
 export default ProjectContainer
