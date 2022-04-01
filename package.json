@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://rajshekhar26.github.io/cleanfolio",
   "engines" : { 
-    "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
+
+    "node" : "16.14.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
