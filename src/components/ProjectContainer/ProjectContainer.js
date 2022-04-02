@@ -8,7 +8,7 @@ import './ProjectContainer.css'
 import { ThemeContext } from '../../contexts/theme'
 
 const ProjectContainer = ({ project }) => {
-    const [{ themeName, toggleTheme }] = useContext(ThemeContext)
+    const [{ themeName }] = useContext(ThemeContext)
   const [more,setMore]=useState(false)
   
  
