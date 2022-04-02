@@ -31,12 +31,7 @@ const Form =()=>{
  
  const sendMail= async ()=>{
    const body = {name,mail,phone,message}
-try{
-     console.log("helloj")
-    }
-  catch(err){
-    console.log(err)
-  }
+
  }
 
 const getTheme =()=>{
