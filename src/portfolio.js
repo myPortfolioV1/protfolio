@@ -18,7 +18,7 @@ const about = {
   role: 'full stack developper',
   picture : "https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/271929437_10215645295883895_6470745496118156291_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nWVvhoqCU84AX90d4WP&_nc_ht=scontent.ftun15-1.fna&oh=00_AT_nQZuUwQLRdI4L6aWVjukpMYkAQIS3NaVBPGtzmRwGig&oe=6245F63C" , 
   description: profile ,
-  resume: 'https://example.com',
+  resume: 'https://mega.nz/file/dsEElYxQ#YEk2LzbearxVkXDbBUZm7weyfVwbGhKA8vkTmG2qGSY',
   social: {
     linkedin: 'https://www.linkedin.com/in/amine-jelassi/',
     github: mygit,

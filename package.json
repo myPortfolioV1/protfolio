@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts --openssl-legacy-provider eject",
     "lint": "eslint .",
@@ -43,6 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : "16.14.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
