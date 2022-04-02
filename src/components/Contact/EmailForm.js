@@ -32,7 +32,7 @@ const Form =()=>{
  const sendMail= async ()=>{
    const body = {name,mail,phone,message}
 try{
-       await axios.post("http://localhost:5000/mail",body)
+     console.log("helloj")
     }
   catch(err){
     console.log(err)
