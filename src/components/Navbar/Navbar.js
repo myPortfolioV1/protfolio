@@ -13,7 +13,8 @@ const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false)
 
   const toggleNavList = () => setShowNavList(!showNavList)
-
+  const a = "";
+  console.log(a)
   return (
     <div>
       
