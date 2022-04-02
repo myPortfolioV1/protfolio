@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <section className='section contact center' id='contact'>
-      <h2 className='section__title'>Contact</h2>
+
       
      <div  className="parent">
      <div>  <LocalPhoneIcon/></div><p>20 669 058</p>
