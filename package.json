@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://rajshekhar26.github.io/cleanfolio",
-  "engines" : { 
-
-    "node" : "16.14.2"
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -29,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts --openssl-legacy-provider eject",
     "lint": "eslint .",
@@ -47,6 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : "16.14.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0",

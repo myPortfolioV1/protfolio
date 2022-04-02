@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState ,useContext } from 'react';
 import axios from 'axios'
+import { ThemeContext } from '../../contexts/theme'
 
 const Form =()=>{
+    const [{ themeName }] = useContext(ThemeContext)
     const [name,setName] = useState("")
     const [mail,setMail] = useState("")
     const [phone, setPhone]=useState("")
@@ -29,14 +31,23 @@ const Form =()=>{
  
  const sendMail= async ()=>{
    const body = {name,mail,phone,message}
-
+try{
     const res = await axios.post("http://localhost:5000/mail",body)
-    console.log(res.data)
+    }
+  catch(err){
+    console.log(err)
+  }
  }
 
+const getTheme =()=>{
+  if(themeName === "light"){
+    return "contact-boxlight"
+  }
+    return "contact-boxdark"
+}
   
  return (<div className="container">
-  <div className="contact-box">
+  <div className={getTheme()}>
     <div className="left" />
     <div className="right">
       <h4 >Email me</h4>

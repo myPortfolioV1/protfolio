@@ -42,7 +42,7 @@ body{
 	filter: blur(50px);
 	z-index: -1;
 }
-.contact-box{
+.contact-boxlight{
 	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -52,7 +52,16 @@ body{
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
-
+.contact-boxdark{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgb(36, 36, 59);
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
 .left{
 	background: url("https://blog.aweber.com/wp-content/uploads/2005/03/email-deliverability-tips-to-get-your-message-to-the-inbox_featured-1200x675-1.jpg") no-repeat center;
 	background-size: cover;
