@@ -7,7 +7,7 @@ const Projects = () => {
   if (!projects.length) return null
 
   return (
-    <section id='projects' className='section projects'>
+    <section id='NEFFEX ' className='section projects'>
       <h2 className='section__title'>Projects</h2>
 
       <div className='projects__grid'>

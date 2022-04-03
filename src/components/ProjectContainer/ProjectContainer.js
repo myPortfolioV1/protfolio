@@ -79,6 +79,13 @@ const ProjectContainer = ({ project }) => {
     )}      
     </>
   )
+const getType=()=>{
+ if(project.team.length === 1)
+ return "solo project"
+ else
+ return "team project"
+}
+
 
 const button = ()=>{
   let butt
@@ -100,7 +107,7 @@ const button = ()=>{
        <img style ={{width : 150 , height : 150 , borderRadius : 155}} alt="project" src ={project.image}/>
 
     <h3 style = {{color : "	#FF4500" , margin : "15px"}}>{project.name}</h3>
-   <p>role : {project.position} </p> _________ <p>team project</p>  {project.team.map(()=><PersonIcon/>)} <p>{project.team.length} contributors</p><AccountTreeIcon/>
+   <p>role : {project.position} </p> _________ <p>{getType()}</p>  {project.team.map(()=><PersonIcon/>)} <p>{project.team.length} contributors</p><AccountTreeIcon/>
     <p className='project__description'>{project.description}</p>  
    
     {more ?showMore():""}
