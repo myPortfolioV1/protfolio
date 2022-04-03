@@ -31,12 +31,7 @@ const Form =()=>{
  
  const sendMail= async ()=>{
    const body = {name,mail,phone,message}
-try{
-       await axios.post("http://localhost:5000/mail",body)
-    }
-  catch(err){
-    console.log(err)
-  }
+
  }
 
 const getTheme =()=>{
