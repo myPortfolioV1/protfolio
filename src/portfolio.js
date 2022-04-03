@@ -100,6 +100,22 @@ const projects = [
     livePreview: mygit,
     image : "https://avatars.githubusercontent.com/u/95681015?s=200&v=4",
     repo : "https://github.com/Bit-Optimizers"
+  },
+  {
+    name: 'My portfolio',
+    tasks : ["responsive design","node mailer","heroku deployment"],
+    position : "developer",
+    team : [0] ,
+    description:
+    `a personal project that allows me to present 
+     my portfolio to contain my previous projects as well 
+     as my resume and a contact section so people can reach me   
+    `,
+    stack: ['react', 'mongoDB', 'express js' ,'node mailer'],
+    sourceCode: 'https://github.com/myPortfolioV1',
+    livePreview: mygit,
+    image : "https://lefebvrealexandre.files.wordpress.com/2015/05/portfolio-logo.jpg",
+    repo : "https://github.com/Bit-Optimizers"
   }
 
 ]
