@@ -1,13 +1,19 @@
-import { useState ,useContext } from 'react';
+import { useState ,useContext ,useEffect} from 'react';
 import axios from 'axios'
 import { ThemeContext } from '../../contexts/theme'
 
 const Form =()=>{
+
+ //---------init------------
+  useEffect(()=>{
+     checkMobile()
+  }) 
     const [{ themeName }] = useContext(ThemeContext)
     const [name,setName] = useState("")
     const [mail,setMail] = useState("")
     const [phone, setPhone]=useState("")
     const [message,setMessage] = useState("")
+    const  [mobile,setMobile] = useState(false)
     
     const ChangeHandler=(e)=>{
    
@@ -28,7 +34,20 @@ const Form =()=>{
         setMessage(()=>e.target.value)
       }
     }
- 
+
+
+///---------checking window width for mobile menu 
+    const checkMobile =()=>{     
+      console.log('resized to: ', window.innerWidth, 'x', window.innerHeight)
+      if(window.innerWidth <= 600){
+        setMobile(()=>true)
+      }
+      else 
+       {
+         setMobile(()=>false)
+       }
+    }
+
  const sendMail= async ()=>{
    const body = {name,mail,phone,message}
 
@@ -40,6 +59,8 @@ const getTheme =()=>{
   }
     return "contact-boxdark"
 }
+
+window.addEventListener('resize', checkMobile)
   
  return (<div className="container">
   <div className={getTheme()}>
