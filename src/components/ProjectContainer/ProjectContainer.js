@@ -43,7 +43,7 @@ const ProjectContainer = ({ project }) => {
 
   const showMore=()=>(
     <>
-     <h3 style = {{color : "	#FF4500"}}>tasks </h3>
+     <h3 className="animation" style = {{color : "	#FF4500"}}>tasks </h3>
          <ul className={getThemeClass("tasks")}>
       {project.tasks.map(task=><li className="project_task_item" style = {{position : "floatLeft"}}>{task}</li>)}
     </ul> 
