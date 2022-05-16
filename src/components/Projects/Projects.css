@@ -6,3 +6,48 @@
   grid-gap: 2em;
 
 }
+
+
+.sectionProjects{
+  margin-top: 50px;
+  display: block;
+}
+
+.projects_List_Container{
+
+  width: 100%; 
+  aspect-ratio: 1 / 0.6;
+
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction: row;
+}
+
+
+.project_item_Container{
+  width: 60%;
+  height:100%;
+  background-color: aquamarine;
+  
+}
+
+.projects_List{
+  width: 40%;
+  height:100%;
+  display:block;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  align-items: center;
+}
+
+.projects_List::-webkit-scrollbar{ 
+  
+}
+
+.projectsContainer{
+ width: 100%;
+ aspect-ratio: 1/0.5;
+}
+
+

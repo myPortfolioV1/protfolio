@@ -41,12 +41,11 @@ const Form =()=>{
   const mobileForm=()=>{
 
 return  (  <div className="form">
-    <div className="title">Welcome</div>
-    <div className="subtitle">Let's create your account!</div>
+    <div className="title">Email me</div>
     <div className="input-container ic1">
       <input id="firstname" className="input" type="text" placeholder=" " />
       <div className="cut" />
-      <label htmlFor="firstname" className="placeholder">First name</label>
+      <label htmlFor="firstname" className="placeholder">Name</label>
     </div>
     <div className="input-container ic2">
       <input id="lastname" className="input" type="text" placeholder=" " />
@@ -54,7 +53,7 @@ return  (  <div className="form">
       <label htmlFor="lastname" className="placeholder">Last name</label>
     </div>
     <div className="input-container ic2">
-      <input id="email" className="input" type="text" placeholder=" " />
+      <input id="email" className="input" type="Email" placeholder="" />
       <div className="cut cut-short" />
       <label htmlFor="email" className="placeholder">Email
       </label></div>
@@ -69,7 +68,6 @@ return  (  <div className="form">
 
 ///---------checking window width for mobile menu 
     const checkMobile =()=>{     
-      console.log('resized to: ', window.innerWidth, 'x', window.innerHeight)
       if(window.innerWidth <= 600){
         setMobile(()=>true)
       }

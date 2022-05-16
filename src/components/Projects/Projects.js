@@ -1,20 +1,48 @@
+import { useState , useEffect } from 'react'
 import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
+import ProjectItemList from '../projectItemList/ProjectItemList'
 import './Projects.css'
-
+import AOS from 'aos'
+import "aos/dist/aos.css";
 const Projects = () => {
   if (!projects.length) return null
 
-  return (
-    <section id='NEFFEX ' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+  let [projectItem,setProjectIem]=useState(1);
+  let [ProjectList,setProjectList]=useState(projects);
+  
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  })
 
-      <div className='projects__grid'>
-        {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
-        ))}
-      </div>
+  return (
+    <section id='NEFFEX ' className='sectionProjects' data-aos="fade-down">
+       <h2 className='section__title'>Projects</h2>
+ 
+           
+
+              {/* <div className='projects__grid'>
+                {projects.map((project) => (
+                  <ProjectContainer key={uniqid()} project={project} />
+                ))}
+              </div> */}
+
+         <div className="projects_List_Container">
+              <div className="project_item_Container">
+             
+              </div>
+
+              <div className="projects_List">
+               {projects.map((element,i)=><ProjectItemList project={element}/>)}
+              </div>
+
+          </div>
+
+
+
+
     </section>
   )
 }

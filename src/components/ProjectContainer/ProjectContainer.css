@@ -1,16 +1,8 @@
 .project {
-  padding: 2em;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
-  color : "#FF8C00"
+
 }
 
-.project:hover {
-  transform: translateY(-25px);
-   transform : translate3d()
-}
+
 
 .project__description {
   margin-top: 2em ; 

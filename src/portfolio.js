@@ -16,7 +16,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Med Amine Jelassi',
   role: 'full stack developper',
-  picture : "https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/271929437_10215645295883895_6470745496118156291_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=174925&_nc_ohc=L4PxgdTMoFIAX_wjU6X&tn=VQGQQ_GjV7ZxHDOd&_nc_ht=scontent.ftun15-1.fna&oh=00_AT9wqxDeQTV4nsmcQOnAJxvd2Y30PIxro2MI-vF2AhxdmA&oe=627D553C" , 
+  picture : "https://res.cloudinary.com/jobify/image/upload/v1643743903/xbt2xsg87jxgt3jediyd.jpg" , 
   description: profile ,
   resume: 'https://mega.nz/file/dsEElYxQ#YEk2LzbearxVkXDbBUZm7weyfVwbGhKA8vkTmG2qGSY',
   social: {
