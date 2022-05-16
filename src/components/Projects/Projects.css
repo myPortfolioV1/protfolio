@@ -6,3 +6,28 @@
   grid-gap: 2em;
 
 }
+
+
+.projects_List_Container{
+
+  width: 100%; 
+  aspect-ratio: 1 / 1;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction: row;
+}
+
+
+.project_item_Container{
+  width: 70%;
+  height:100%;
+  background-color: aquamarine;
+}
+
+.projects_List{
+  width: 30%;
+  height:100%;
+  background-color: rgb(170, 195, 246);
+}
