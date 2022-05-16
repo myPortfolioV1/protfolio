@@ -1,19 +1,24 @@
-import { useState } from 'react'
+import { useState , useEffect } from 'react'
 import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import ProjectItemList from '../projectItemList/ProjectItemList'
 import './Projects.css'
-
+import AOS from 'aos'
+import "aos/dist/aos.css";
 const Projects = () => {
   if (!projects.length) return null
 
   let [projectItem,setProjectIem]=useState(1);
   let [ProjectList,setProjectList]=useState(projects);
   
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  })
 
   return (
-    <section id='NEFFEX ' className='sectionProjects'>
+    <section id='NEFFEX ' className='sectionProjects' data-aos="fade-down">
        <h2 className='section__title'>Projects</h2>
  
            

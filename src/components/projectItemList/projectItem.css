@@ -1,17 +1,18 @@
 .project{
-  width: 70%;
-  border-top-right-radius: 1pc;
+  width: 90%;
+  border-top-right-radius: 2pc;
   padding: 2em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
-  transition: transform 0.4s linear;
+  transition: transform 0.3s linear;
   color : "#FF8C00";
   border-left: 1px solid;
   border-color: aquamarine;
   display : flex;
-  
+
   flex-direction: row;
+  cursor: pointer;
 }
 
 
@@ -19,19 +20,27 @@
     transform: translateZ(-25px);
     transform: translateX(-15px);
      transform : translate3d(15px);
+     border-bottom: 2px solid;
+     border-color: aquamarine;
+    
   }
 
  
   .projectHeader img {
-      height:10%;
-      aspect-ratio:1/1;
-
+      height: 100px;
+      width : 100px;
       border-radius: 50%;
+     
   }
 
   .projectHeader{
-      display:flex;
+    display: block;
       flex-direction: column;
       width: 50%;
       height:100%;
+  }
+  .projectInfo {
+      align-items:center;
+      width: 50%;
+      height: 100%;
   }

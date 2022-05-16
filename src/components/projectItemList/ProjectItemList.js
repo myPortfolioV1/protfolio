@@ -10,20 +10,22 @@ import { ThemeContext } from '../../contexts/theme'
 const ProjectItemList = ({ project }) => {
     const [{ themeName }] = useContext(ThemeContext)
   const [more,setMore]=useState(false)
+ 
+  console.log(project);
 
-  useEffect(()=>{
-    console.log("hello form project Item",project)
-  })
 
 
    
   return(
-  <div className='project'  > 
+  <div className='project' > 
   <div className="projectHeader">
     <img src={project.image}/>
     <h4>{project.name}</h4>
   </div>
-    
+  
+    <div className="projectInfo" >
+       {project.team.length}<PersonIcon/>
+    </div>
   </div>
 )}
 
