@@ -8,11 +8,16 @@
 }
 
 
+.sectionProjects{
+  margin-top: 50px;
+  display: block;
+}
+
 .projects_List_Container{
 
   width: 100%; 
-  aspect-ratio: 1 / 1;
-  background-color: aliceblue;
+  aspect-ratio: 1 / 0.5;
+
   align-items: center;
   justify-content: center;
   display:flex;
@@ -21,13 +26,23 @@
 
 
 .project_item_Container{
-  width: 70%;
+  width: 60%;
   height:100%;
   background-color: aquamarine;
+  
 }
 
 .projects_List{
-  width: 30%;
+  width: 40%;
   height:100%;
- 
+  display:block;
+  overflow: scroll;
+  align-items: center;
 }
+
+.projectsContainer{
+ width: 100%;
+ aspect-ratio: 1/0.5;
+}
+
+

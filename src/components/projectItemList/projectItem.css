@@ -1,0 +1,37 @@
+.project{
+  width: 70%;
+  border-top-right-radius: 1pc;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.4s linear;
+  color : "#FF8C00";
+  border-left: 1px solid;
+  border-color: aquamarine;
+  display : flex;
+  
+  flex-direction: row;
+}
+
+
+.project:hover {
+    transform: translateZ(-25px);
+    transform: translateX(-15px);
+     transform : translate3d(15px);
+  }
+
+ 
+  .projectHeader img {
+      height:10%;
+      aspect-ratio:1/1;
+
+      border-radius: 50%;
+  }
+
+  .projectHeader{
+      display:flex;
+      flex-direction: column;
+      width: 50%;
+      height:100%;
+  }

@@ -18,8 +18,12 @@ const ProjectItemList = ({ project }) => {
 
    
   return(
-  <div className='project' style={{width:"100%",aspectRatio:1/1}} > 
-
+  <div className='project'  > 
+  <div className="projectHeader">
+    <img src={project.image}/>
+    <h4>{project.name}</h4>
+  </div>
+    
   </div>
 )}
 

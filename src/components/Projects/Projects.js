@@ -13,25 +13,29 @@ const Projects = () => {
   
 
   return (
-    <section id='NEFFEX ' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+    <section id='NEFFEX ' className='sectionProjects'>
+       <h2 className='section__title'>Projects</h2>
+ 
+           
 
-      {/* <div className='projects__grid'>
-        {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
-        ))}
-      </div> */}
+              {/* <div className='projects__grid'>
+                {projects.map((project) => (
+                  <ProjectContainer key={uniqid()} project={project} />
+                ))}
+              </div> */}
 
-     <div className="projects_List_Container">
-          <div className="project_item_Container">
+         <div className="projects_List_Container">
+              <div className="project_item_Container">
              
+              </div>
+
+              <div className="projects_List">
+               {projects.map((element,i)=><ProjectItemList project={element}/>)}
+              </div>
+
           </div>
 
-          <div className="projects_List">
-           {projects.map((element,i)=><ProjectItemList project={element}/>)}
-          </div>
 
-     </div>
 
 
     </section>
