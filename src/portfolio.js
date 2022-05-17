@@ -39,11 +39,12 @@ const projects = [
     to companies to hire a trusted worker regarding to their
     previous feedbacks
     `,
-    stack: ['react Native', 'mysql', 'express js' ,'node mailer' , "JWT" , "google maps API" , "firebase" , "cloudinary"  ],
+    stack: ['react Native', 'mysql', 'express js' , "google maps API" , "firebase"  ],
     sourceCode: 'https://github.com/theFourthFive',
     livePreview: mygit,
     image : "https://images-platform.99static.com//xjMAot8gseExfFvALMsP1Ukov1Y=/186x177:777x768/fit-in/500x500/99designs-contests-attachments/79/79173/attachment_79173468",
-    repo : "https://github.com/theFourthFive"
+    repo : "https://github.com/theFourthFive",
+    tecklogo:["https://www.apollo-formation.com/wp-content/uploads/react-native-logo-1-216x250.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-cdb-for-mysql-7.png"]
   },
   {
     name: 'bit-optimiser',
@@ -62,7 +63,8 @@ const projects = [
     sourceCode: 'https://github.com/Bit-Optimizers',
     livePreview: mygit,
     image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtslWiX16yKkmh00sa69ZPssIkame9UG_zQ&usqp=CAU",
-    repo : "https://github.com/Bit-Optimizers"
+    repo : "https://github.com/Bit-Optimizers",
+    tecklogo:["http://assets.stickpng.com/thumbs/58482acecef1014c0b5e4a1e.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
   },
   {
     name: 'E LEARNING PLATEFORM',
@@ -82,7 +84,8 @@ const projects = [
     sourceCode: 'https://github.com/team-glory',
     livePreview: mygit,
     image : "https://s.tmimgcdn.com/scr/800x500/83500/e-learning-logo-template_83519-5-original.jpg",
-    repo : "https://github.com/Bit-Optimizers"
+    repo : "https://github.com/Bit-Optimizers",
+    tecklogo:["https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
   },
   {
     name: 'G2A tunisia',
@@ -99,7 +102,8 @@ const projects = [
     sourceCode: 'https://github.com/teamFivee',
     livePreview: mygit,
     image : "https://avatars.githubusercontent.com/u/95681015?s=200&v=4",
-    repo : "https://github.com/Bit-Optimizers"
+    repo : "https://github.com/Bit-Optimizers",
+    tecklogo:["https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-cdb-for-mysql-7.png"]
   },
   {
     name: 'My portfolio',
@@ -115,7 +119,8 @@ const projects = [
     sourceCode: 'https://github.com/myPortfolioV1',
     livePreview: mygit,
     image : "https://lefebvrealexandre.files.wordpress.com/2015/05/portfolio-logo.jpg",
-    repo : "https://github.com/Bit-Optimizers"
+    repo : "https://github.com/Bit-Optimizers",
+    tecklogo:["https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png","https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_502,h_518/https://keytotech.com/wp-content/uploads/2019/05/firebase.png"]
   }
 
 ]
