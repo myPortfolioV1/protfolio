@@ -3,9 +3,11 @@ import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import ProjectItemList from '../projectItemList/ProjectItemList'
+import ProjectItemView from "../ProjectItemView/projectItemView"
 import './Projects.css'
 import AOS from 'aos'
 import "aos/dist/aos.css";
+import { Height } from '@material-ui/icons'
 const Projects = () => {
   if (!projects.length) return null
 
@@ -36,9 +38,9 @@ const Projects = () => {
 
          <div className="projects_List_Container">
               <div className="project_item_Container">
-             
+                 
               </div>
-
+                <ProjectItemView project={ProjectList[selectedProjectItem]}/>
               <div className="projects_List">
                {projects.map((element,i)=><ProjectItemList key={i} id={i} getselected={getItemsSelected} selectedID={selectedProjectItem} project={element}/>)}
               </div>

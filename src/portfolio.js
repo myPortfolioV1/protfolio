@@ -34,6 +34,7 @@ const projects = [
     tasks : ["trello board","github conflict management of 5 contributors","Data Base schema","social authentication","twilio" , "google maps API" , "firebase files upload" , "integration payement API"],
     position : "SCRUM Master",
     team : [0,0,0,0,0] ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
     description:
     `an app mobile that offer to ower 20% youth population a mini jobs that match their availability
     to companies to hire a trusted worker regarding to their
@@ -55,6 +56,8 @@ const projects = [
     `],
     position : "SCRUM Master",
     team : [0,0,0,0,0] ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
+
     description:
     `a platform that allows users to rent their unneeded tools and
     make money from them    
@@ -72,6 +75,7 @@ const projects = [
     ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
     team : [0,0,0,0,0] ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png" ,
     description:
     `A plate form that allows for teachers
     to post free/premium courses in all digital forms
@@ -93,6 +97,8 @@ const projects = [
     ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
     team : [0,0,0,0,0] ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
+
     description:
     `A platform that allows for gamers to :
     sell and exchange games by a secure payment process
@@ -110,6 +116,7 @@ const projects = [
     tasks : ["responsive design","node mailer","heroku deployment"],
     position : "developer",
     team : [0] ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png" ,
     description:
     `a personal project that allows me to present 
      my portfolio to contain my previous projects as well 

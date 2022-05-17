@@ -25,19 +25,19 @@ const checkSelected=()=>{
 }
    
   return(
-  <div className={checkSelected()}> 
+  <div className={checkSelected()} onClick={()=>getselected(id)}> 
   <div className="projectHeader">
     <img src={project.image}/>
     <h4>{project.name}</h4>
   </div>
   
-    <div className="projectInfo" onClick={()=>getselected(id)}>
+    <div className="projectInfo" >
       <h4>team project</h4>
        <div className="projectContributersIcons"> {project.team.map((element, i)=><PersonIcon key={i}/>)}</div>
-       {project.team.length} {teamword()} 
+      <p> {project.team.length} {teamword()}</p>
       <h4>role</h4>
-      <div>{project.position}</div>
-      <h4>technologies</h4>
+      <div><p>{project.position}</p></div>
+      <h4><p>technologies</p></h4>
       <div className="technologiesLogoListContainer">{project.tecklogo.map((logo,i)=>(<div className="logoContainer" key={i}><img className="logoItem" src={logo} /></div>))}</div>
        
     </div>

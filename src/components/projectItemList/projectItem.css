@@ -1,5 +1,5 @@
 .project{
-  width: 90%;
+  width: 80%;
   border-top-right-radius: 2pc;
   padding: 2em;
   margin: 0 auto;
@@ -18,7 +18,7 @@
 
 
 .selectedProject{
-  width: 90%;
+  width: 100%;
   border-top-right-radius: 2pc;
   padding: 2em;
   margin: 0 auto;
@@ -29,12 +29,22 @@
   border-left: 1px solid;
   border-color: aquamarine;
   display : flex;
-  background:linear-gradient(to right, rgb(197, 253, 235), white);
-  transform: translateX(-15px);
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: running;
+  background:linear-gradient(to right, rgb(197, 253, 235), transparent);
+  transform: translateX(-25px);
   flex-direction: row;
   cursor: pointer;
   align-items: center;
 }
+
+@keyframes example {
+  from  {background-color:linear-gradient(to right, rgb(255, 255, 255), transparent); width: 80%;}
+  to {background:linear-gradient(to right, rgb(197, 253, 235), transparent); width: 100%;}
+  
+}
+
 
 
 .project:hover {
@@ -77,8 +87,15 @@
   
   }
 .projectInfo h4{
-  font-size:15px;
+  font-size:13px;
+  margin-top: 6px;
 
+}
+
+.projectInfo p {
+  font-size:13px;
+  margin-top:-5px;
+  margin-bottom:5px;
 }
   .projectContributersIcons{
       align-items : center;
