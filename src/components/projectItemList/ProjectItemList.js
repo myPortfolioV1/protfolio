@@ -6,24 +6,32 @@ import PersonIcon from '@material-ui/icons/Person'
 import AccountTreeIcon from "@material-ui/icons/AccountTree"
 import './projectItem.css'
 import { ThemeContext } from '../../contexts/theme'
+import { PropaneSharp } from '@mui/icons-material'
 
-const ProjectItemList = ({ project }) => {
+const ProjectItemList = ({ project,getselected,id,selectedID}) => {
     const [{ themeName }] = useContext(ThemeContext)
   const [more,setMore]=useState(false)
  
-  console.log(project);
 
  const teamword =()=>project===1?"contributer":"contributors"
 
+const checkSelected=()=>{
+  if(selectedID===id)
+  {
+    return "selectedProject"
+  }
+
+  return "project"
+}
    
   return(
-  <div className='project' > 
+  <div className={checkSelected()}> 
   <div className="projectHeader">
     <img src={project.image}/>
     <h4>{project.name}</h4>
   </div>
   
-    <div className="projectInfo" >
+    <div className="projectInfo" onClick={()=>getselected(id)}>
       <h4>team project</h4>
        <div className="projectContributersIcons"> {project.team.map((element, i)=><PersonIcon key={i}/>)}</div>
        {project.team.length} {teamword()} 

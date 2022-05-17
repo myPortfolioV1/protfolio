@@ -13,7 +13,26 @@
 
   flex-direction: row;
   cursor: pointer;
+  align-items: center;
+}
 
+
+.selectedProject{
+  width: 90%;
+  border-top-right-radius: 2pc;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s linear;
+  color : "#FF8C00";
+  border-left: 1px solid;
+  border-color: aquamarine;
+  display : flex;
+  background:linear-gradient(to right, rgb(197, 253, 235), white);
+  transform: translateX(-15px);
+  flex-direction: row;
+  cursor: pointer;
   align-items: center;
 }
 
