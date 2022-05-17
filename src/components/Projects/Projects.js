@@ -9,13 +9,18 @@ import "aos/dist/aos.css";
 const Projects = () => {
   if (!projects.length) return null
 
-  let [projectItem,setProjectIem]=useState(1);
+  let [selectedProjectItem,setProjectItem]=useState(0);
   let [ProjectList,setProjectList]=useState(projects);
   
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   })
+
+
+  const getItemsSelected=(id)=>{
+    setProjectItem(()=>id)
+  }
 
   return (
     <section id='NEFFEX ' className='sectionProjects' data-aos="fade-down">
@@ -35,7 +40,7 @@ const Projects = () => {
               </div>
 
               <div className="projects_List">
-               {projects.map((element,i)=><ProjectItemList project={element}/>)}
+               {projects.map((element,i)=><ProjectItemList key={i} id={i} getselected={getItemsSelected} selectedID={selectedProjectItem} project={element}/>)}
               </div>
 
           </div>
