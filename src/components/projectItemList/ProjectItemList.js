@@ -13,7 +13,7 @@ const ProjectItemList = ({ project }) => {
  
   console.log(project);
 
-
+ const teamword =()=>project===1?"contributer":"contributors"
 
    
   return(
@@ -24,8 +24,16 @@ const ProjectItemList = ({ project }) => {
   </div>
   
     <div className="projectInfo" >
-       {project.team.length}<PersonIcon/>
+      <h4>team project</h4>
+       <div className="projectContributersIcons"> {project.team.map((element, i)=><PersonIcon key={i}/>)}</div>
+       {project.team.length} {teamword()} 
+      <h4>role</h4>
+      <div>{project.position}</div>
+      <h4>technologies</h4>
+      <div className="technologiesLogoListContainer">{project.tecklogo.map((logo,i)=>(<div className="logoContainer" key={i}><img className="logoItem" src={logo} /></div>))}</div>
+       
     </div>
+
   </div>
 )}
 

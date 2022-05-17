@@ -37,10 +37,22 @@
   height:100%;
   display:block;
   overflow-x: auto;
-  scrollbar-width: thin;
+  scrollbar-gutter: stable;
   align-items: center;
 }
+.projects_List::-webkit-scrollbar {
+  width: 16px;
+}
 
+.projects_List::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.projects_List::-webkit-scrollbar-thumb {
+  background-color: #657b5e;
+  border-radius: 100px;
+}
 .projects_List::-webkit-scrollbar{ 
   
 }
