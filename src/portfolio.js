@@ -75,7 +75,7 @@ const projects = [
     ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
     team : [0,0,0,0,0] ,
-    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png" ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
     description:
     `A plate form that allows for teachers
     to post free/premium courses in all digital forms
@@ -116,7 +116,7 @@ const projects = [
     tasks : ["responsive design","node mailer","heroku deployment"],
     position : "developer",
     team : [0] ,
-    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png" ,
+    victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png",
     description:
     `a personal project that allows me to present 
      my portfolio to contain my previous projects as well 
