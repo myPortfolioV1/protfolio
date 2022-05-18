@@ -33,6 +33,7 @@ const projects = [
     name: 'JOBIFY',
     tasks : ["trello board","github conflict management of 5 contributors","Data Base schema","social authentication","twilio" , "google maps API" , "firebase files upload" , "integration payement API"],
     position : "SCRUM Master",
+    roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652864157/Resilient-Leadership-removebg-preview_ypbfmt.png", 
     team : [0,0,0,0,0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
     description:
@@ -55,6 +56,7 @@ const projects = [
     `,`google passport
     `],
     position : "SCRUM Master",
+    roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652864157/Resilient-Leadership-removebg-preview_ypbfmt.png", 
     team : [0,0,0,0,0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
 
@@ -70,10 +72,11 @@ const projects = [
     tecklogo:["http://assets.stickpng.com/thumbs/58482acecef1014c0b5e4a1e.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
   },
   {
-    name: 'E LEARNING PLATEFORM',
+    name: 'E LEARNING',
     tasks : [`github management and conflicts solving ` , `setting Data Base schema` , `JWT authentication API
     ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
+    roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652864157/Resilient-Leadership-removebg-preview_ypbfmt.png", 
     team : [0,0,0,0,0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
     description:
@@ -96,6 +99,7 @@ const projects = [
     tasks : [`github management and conflicts solving ` , `setting Data Base schema` , `JWT authentication API
     ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
+    roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652864157/Resilient-Leadership-removebg-preview_ypbfmt.png", 
     team : [0,0,0,0,0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
 
@@ -115,6 +119,7 @@ const projects = [
     name: 'My portfolio',
     tasks : ["responsive design","node mailer","heroku deployment"],
     position : "developer",
+    roleImage : "",
     team : [0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png",
     description:

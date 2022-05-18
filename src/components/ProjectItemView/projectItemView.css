@@ -17,7 +17,7 @@
 
 
 .projectItemViewHeader{
-   height:30%;
+   height:20%;
    width: 100%;
    display:flex;
    flex-direction: row;
@@ -32,13 +32,15 @@
 .projectItemViewBody{
     height:70%;
     width : 100%;
+    background:linear-gradient(to right,  #efeeee,transparent);
+    border-bottom-left-radius: 5pc;
 
 }
 
 .projectItemViewHeaderTite{
  height:100%;
  width :30%;
- align-items: center;
+ align-items: flex-end;
  justify-content:center;
  display:flex;
  flex-direction: column;
@@ -46,17 +48,25 @@
  /* background-color: rgb(167, 105, 24); */
 }
 .projectItemViewHeaderTite img {
-    height: 150px;
-    aspect-ratio: 1/1 ;
+
     border-radius:50%;
     animation-name: imageAnimation;
     animation-duration: 1s;
+     
+  max-width: 70px;
+  aspect-ratio: 1/1;
+  animation-name: imageAnimation;
+  animation-duration: 1s;
+
 
 }
+
+/* next color   #FBD689 */
 
 .projectItemViewHeaderTite p {
     animation-name: textAnimation;
     animation-duration:1s;
+    font-weight: bold;
 }
 
 
@@ -64,6 +74,7 @@
     height:100%;
     width :30%;
     align-items:center;
+    justify-content: center;
     display:flex;
     flex-direction: column;
     
@@ -74,7 +85,7 @@
 
 .projectItemViewHeaderTeam img {
  
-  width: 60%;
+  width: 40%;
   aspect-ratio: 1/1;
   animation-name: imageAnimation;
   animation-duration: 1s;
@@ -103,10 +114,26 @@
 }
 
 
-.projectItemViewHeadersection3{
+.projectItemViewHeadersection2{
     height:100%;
     width :30%;
+    display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+
 
 }
+
+.projectItemViewHeadersection2 img {
+  height : 40%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.projectItemViewHeadersection2 p {
+    
+    font-Size : 15px;
+    animation-name: textAnimation;
+    animation-duration:1s;
+}
+
