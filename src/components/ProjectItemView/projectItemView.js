@@ -18,12 +18,11 @@ const ProjectItemView = ({project}) => {
   return(
   <div  key={Math.random()} className="projectViewContainer"> 
        <div className="projectItemViewHeader">
-            <div className="projectItemViewHeaderTeam"><img src={project.victors}/> <p>{project.team.length>1?"team project":"solo project"}</p> </div>
+            <div className="projectItemViewHeaderTite"> <p>{project.name}</p> </div>
             <div  className="projectItemViewHeadersection2">
-                 <img src={project.roleImage}/>
-                 <p>{project.position}</p>
+
             </div>
-            <div className="projectItemViewHeaderTite"><img src={project.image}/><p>{project.name}</p></div>
+            <div className="projectItemViewHeaderTite"><img src={project.image}/></div>
        </div>
        <div className="projectItemViewBody">
            
