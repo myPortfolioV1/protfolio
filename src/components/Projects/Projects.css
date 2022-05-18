@@ -28,7 +28,8 @@
 .project_item_Container{
   width: 60%;
   height:100%;
-  background-color: #657b5e;
+  align-items: flex-end;
+
 }
 
 .projects_List{

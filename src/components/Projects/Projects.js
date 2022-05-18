@@ -38,9 +38,9 @@ const Projects = () => {
 
          <div className="projects_List_Container">
               <div className="project_item_Container">
-                 
+              <ProjectItemView project={projects[selectedProjectItem]} selected={selectedProjectItem}/>
               </div>
-                <ProjectItemView project={ProjectList[selectedProjectItem]}/>
+            
               <div className="projects_List">
                {projects.map((element,i)=><ProjectItemList key={i} id={i} getselected={getItemsSelected} selectedID={selectedProjectItem} project={element}/>)}
               </div>
