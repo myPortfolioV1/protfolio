@@ -25,7 +25,10 @@ const ProjectItemView = ({project}) => {
             <div className="projectItemViewHeaderTite"><img src={project.image}/></div>
        </div>
        <div className="projectItemViewBody">
-           
+           <div className="projectDiscription">
+               <p className="projectDiscriptionTitle">what is {project.name}:</p>  
+               <p>{project.description}</p>
+           </div>
        </div>
 
 

@@ -34,6 +34,10 @@
     width : 100%;
     background:linear-gradient(to right,  #efeeee,transparent);
     border-bottom-left-radius: 5pc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -137,3 +141,25 @@
     animation-duration:1s;
 }
 
+.projectDiscription{
+    width : 50%;
+
+}
+.projectDiscription p {
+    font-size : 11px;
+    animation-name: DiscriptiontextAnimation;
+    animation-duration:1s;
+
+}
+
+@keyframes DiscriptiontextAnimation{
+    from {font-size:0%;opacity: 0;}
+    to {font-size: 55%;opacity:1;}
+}
+
+
+.projectDiscriptionTitle{
+    font-weight:bold;
+    border-bottom: 1px solid ;  
+
+}

@@ -69,7 +69,7 @@ const projects = [
     livePreview: mygit,
     image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtslWiX16yKkmh00sa69ZPssIkame9UG_zQ&usqp=CAU",
     repo : "https://github.com/Bit-Optimizers",
-    tecklogo:["http://assets.stickpng.com/thumbs/58482acecef1014c0b5e4a1e.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
+    tecklogo:["https://res.cloudinary.com/jobify/image/upload/v1652880471/Vue.js-Logo-Vector-removebg-preview_gjdnhi.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
   },
   {
     name: 'E LEARNING',
@@ -80,11 +80,9 @@ const projects = [
     team : [0,0,0,0,0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800383/teamwoking_hqydk7.png" ,
     description:
-    `A plate form that allows for teachers
-    to post free/premium courses in all digital forms
-    (videos, text, PDF...)
-    and to students check, buy, and interact with posts
-    by likes, comments, vues and rating
+    `A plate form that allows teachers
+    to post \n free/premium courses \n (videos, text, PDF...) \n
+    and to students check, buy, and interact \n with likes, comments, vues and rating
         
     `,
     stack: ['angular', 'mongoDB', 'express js' ,'node mailer' , "firebase"],

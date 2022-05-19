@@ -1,5 +1,6 @@
 .project{
   width: 80%;
+  aspect-ratio:2/1.5;
   border-top-right-radius: 2pc;
   padding: 2em;
   margin: 0 auto;
@@ -64,7 +65,7 @@
      
   }
   .projectHeader h4{
-    font-size:20px;
+    font-size:15px;
   }
 
   .projectHeader{
@@ -93,9 +94,11 @@
 }
 
 .projectInfo p {
-  font-size:13px;
+  font-size:60%;
   margin-top:-5px;
-  margin-bottom:5px;
+
+  margin-bottom:15px;
+
 }
   .projectContributersIcons{
       align-items : center;
@@ -112,8 +115,9 @@
 .logoContainer{
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+
 }
 .logoItem{
   width:40px;
