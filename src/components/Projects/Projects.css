@@ -4,9 +4,9 @@
 .sectionProjects{
   margin-top: 50px;
   display: block;
-  width: 100%;
-  aspect-ratio:3/1;
-  max-height: 500px;
+  width: 80%;
+  aspect-ratio:2/1;
+
   align-self: center;
 }
 
