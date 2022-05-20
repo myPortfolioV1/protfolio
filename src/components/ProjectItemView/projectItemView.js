@@ -63,7 +63,10 @@ const ProjectItemView = ({project}) => {
      
        </div>
        <div className="projectItemViewFooter">
-
+          <div className="mainTecks">
+            {project.tecklogo.map((teck,i)=><div key={i}><img src={teck}/></div>)}
+          </div>
+          <div className="otherTecks"></div>
        </div>
 
   </div>
