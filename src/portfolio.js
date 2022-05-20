@@ -69,7 +69,7 @@ const projects = [
     livePreview: mygit,
     image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtslWiX16yKkmh00sa69ZPssIkame9UG_zQ&usqp=CAU",
     repo : "https://github.com/Bit-Optimizers",
-    tecklogo:["https://res.cloudinary.com/jobify/image/upload/v1652880471/Vue.js-Logo-Vector-removebg-preview_gjdnhi.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
+    tecklogo:["https://res.cloudinary.com/jobify/image/upload/v1653036754/Vue.js-Logo-Vector-removebg-preview_zynctj.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
   },
   {
     name: 'E LEARNING',
