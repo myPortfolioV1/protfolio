@@ -74,7 +74,7 @@ const projects = [
   {
     name: 'E LEARNING',
     tasks : [`github management and conflicts solving ` , `setting Data Base schema` , `JWT authentication API
-    ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
+    ` , `interaction (likes, comments, vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
     roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652864157/Resilient-Leadership-removebg-preview_ypbfmt.png", 
     team : [0,0,0,0,0] ,
@@ -95,7 +95,7 @@ const projects = [
   {
     name: 'G2A tunisia',
     tasks : [`github management and conflicts solving ` , `setting Data Base schema` , `JWT authentication API
-    ` , `students interaction (likes, comments, vues, rating)` , `stripe payement API` ],
+    ` , `interactions (likes,vues, rating)` , `stripe payement API` ],
     position : "SCRUM Master",
     roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652864157/Resilient-Leadership-removebg-preview_ypbfmt.png", 
     team : [0,0,0,0,0] ,
@@ -117,7 +117,7 @@ const projects = [
     name: 'My portfolio',
     tasks : ["responsive design","node mailer","heroku deployment"],
     position : "developer",
-    roleImage : "",
+    roleImage : "https://res.cloudinary.com/jobify/image/upload/v1652862756/182-1822816_developer-clipart-hd-png-download_prev_ui_ybcznf.png",
     team : [0] ,
     victors:"https://res.cloudinary.com/jobify/image/upload/v1652800212/soloproject-removebg-preview_csxdw4.png",
     description:
