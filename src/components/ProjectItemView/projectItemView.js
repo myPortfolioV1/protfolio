@@ -14,7 +14,6 @@ const ProjectItemView = ({project}) => {
    var [projectItem,setProjectItem]=useState({})
    
    useEffect(()=>{()=>setProjectItem(project)},[]);
-  console.log(projectItem,project)
   return(
   <div  key={Math.random()} className="projectViewContainer"> 
        <div className="projectItemViewHeader">
@@ -62,8 +61,10 @@ const ProjectItemView = ({project}) => {
            </div>
      
        </div>
+       <p className="technologies">Technologies</p>
        <div className="projectItemViewFooter">
           <div className="mainTecks">
+      
             {project.tecklogo.map((teck,i)=><div key={i}><img src={teck}/></div>)}
           </div>
           <div className="otherTecks"></div>

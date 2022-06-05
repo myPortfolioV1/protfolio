@@ -69,7 +69,7 @@ const projects = [
     livePreview: mygit,
     image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtslWiX16yKkmh00sa69ZPssIkame9UG_zQ&usqp=CAU",
     repo : "https://github.com/Bit-Optimizers",
-    tecklogo:["https://res.cloudinary.com/jobify/image/upload/v1653036754/Vue.js-Logo-Vector-removebg-preview_zynctj.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
+    tecklogo:["https://res.cloudinary.com/jobify/image/upload/v1653036754/Vue.js-Logo-Vector-removebg-preview_zynctj.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://res.cloudinary.com/jobify/image/upload/v1653039010/184-1843023_svg-mongodb-logo-png-transparent-png-removebg-preview_qyvini.png"]
   },
   {
     name: 'E LEARNING',
@@ -90,7 +90,7 @@ const projects = [
     livePreview: mygit,
     image : "https://s.tmimgcdn.com/scr/800x500/83500/e-learning-logo-template_83519-5-original.jpg",
     repo : "https://github.com/Bit-Optimizers",
-    tecklogo:["https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://w7.pngwing.com/pngs/241/983/png-transparent-mongodb-nosql-database-computer-icons-others-leaf-grass-fruit.png"]
+    tecklogo:["https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png","https://blog.jeremylandon.com/images/logo/nodejs.png","https://res.cloudinary.com/jobify/image/upload/v1653039010/184-1843023_svg-mongodb-logo-png-transparent-png-removebg-preview_qyvini.png"]
   },
   {
     name: 'G2A tunisia',
