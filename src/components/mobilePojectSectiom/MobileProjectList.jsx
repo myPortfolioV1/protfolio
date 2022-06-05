@@ -18,29 +18,29 @@ const ProjectItemList = ({ project,getselected,id,selectedID}) => {
 const checkSelected=()=>{
   if(selectedID===id)
   {
-    return "selectedProject"
+    return "selectedMobileProject"
   }
 
-  return "project"
+  return "projectMobile"
 }
 
 
    
   return(
   <div className={checkSelected()} onClick={()=>getselected(id)}> 
-  <div className="projectHeader">
+  <div className="MobileprojectHeader">
     <img src={project.image}/>
-    <h4>{project.name}</h4>
+    <p>{project.name}</p>
   </div>
   
-    <div className="projectInfo" >
+    {/* <div className="MobileprojectInfo" >
       <h4>{project.team.length>1?"team project":"solo project"}</h4>
       <p> {project.team.length} {teamword()}</p>
 
       <h4>technologies</h4>
-      <div className="technologiesLogoListContainer">{project.tecklogo.map((logo,i)=>(<div className="logoContainer" key={i}><img className="logoItem" src={logo} /></div>))}</div>
+      <div className="MobiletechnologiesLogoListContainer">{project.tecklogo.map((logo,i)=>(<div className="logoContainer" key={i}><img className="logoItem" src={logo} /></div>))}</div>
        
-    </div>
+    </div> */}
 
   </div>
 )}
