@@ -33,14 +33,13 @@ const checkSelected=()=>{
     <p>{project.name}</p>
   </div>
   
-    {/* <div className="MobileprojectInfo" >
-      <h4>{project.team.length>1?"team project":"solo project"}</h4>
-      <p> {project.team.length} {teamword()}</p>
+    <div className="MobileprojectInfo" >
+      {/* <h4>{project.team.length>1?"team project":"solo project"}</h4>
+      <p> {project.team.length} {teamword()}</p> */}
 
-      <h4>technologies</h4>
-      <div className="MobiletechnologiesLogoListContainer">{project.tecklogo.map((logo,i)=>(<div className="logoContainer" key={i}><img className="logoItem" src={logo} /></div>))}</div>
+       <div className="MobiletechnologiesLogoListContainer">{project.tecklogo.map((logo,i)=>(<div className="logoContainer" key={i}><img className="logoItem" src={logo} /></div>))}</div>
        
-    </div> */}
+    </div>
 
   </div>
 )}
