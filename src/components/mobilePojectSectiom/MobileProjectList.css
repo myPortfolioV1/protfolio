@@ -1,0 +1,128 @@
+/* .project{
+    height: 100%;
+    aspect-ratio:2/1.5;
+    border-top-right-radius: 2pc;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s linear;
+    color : "#FF8C00";
+    border-left: 1px solid;
+    border-color: aquamarine;
+    display : flex;
+  
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  
+  .selectedProject{
+    width: 100%;
+    border-top-right-radius: 2pc;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s linear;
+    color : "#FF8C00";
+    border-left: 1px solid;
+    border-color: aquamarine;
+    display : flex;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: running;
+    background:linear-gradient(to right, rgb(197, 253, 235), transparent);
+    transform: translateX(-25px);
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  @keyframes example {
+    from  {background-color:linear-gradient(to right, rgb(255, 255, 255), transparent); width: 80%;}
+    to {background:linear-gradient(to right, rgb(197, 253, 235), transparent); width: 100%;}
+    
+  }
+  
+  
+  
+  .project:hover {
+      transform: translateZ(-25px);
+      transform: translateX(-15px);
+       transform : translate3d(15px);
+       border-bottom: 2px solid;
+       border-color: aquamarine;
+      
+    }
+  
+   
+    .projectHeader img {
+        height: 40px;
+        width : 40px;
+        border-radius: 50%;
+       
+    }
+    .projectHeader h4{
+      font-size:15px;
+    }
+  
+    .projectHeader{
+      display: block;
+        flex-direction: column;
+        width: 40%;
+        height:100%;
+    }
+    .projectInfo {
+        align-items:center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        border-radius: 2em; 
+        border: 1px solid ;
+  
+        margin: 0 auto;
+    
+    }
+  .projectInfo h4{
+    font-size:13px;
+    margin-top: 6px;
+  
+  }
+  
+  .projectInfo p {
+    font-size:60%;
+    margin-top:-5px;
+  
+    margin-bottom:15px;
+  
+  }
+    .projectContributersIcons{
+        align-items : center;
+    }
+  
+  .technologiesLogoListContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .logoContainer{
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    margin-left: 3px;
+  
+  }
+  .logoItem{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+  }
+  
+   */
