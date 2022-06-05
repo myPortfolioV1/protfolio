@@ -7,22 +7,37 @@
    flex-direction: column;
    padding-right: 10px;
    align-items: center;
-   justify-content: center;
+   border-top: 1px solid;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-color: aqua;
 
 }
 
 .selectedMobileProject{
   height: 100%;
   min-width: 150px;
-  border : 1px aqua;
    display : flex;
    flex-direction: column;
    padding-right: 10px;
    align-items: center;
-   justify-content: center;
-   background-color: aqua;
+   justify-content: flex-end;
+   box-shadow: 5px 5px 2px 1px rgba(193, 193, 193, 0.2);
+   background: linear-gradient(166deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 59%, rgba(0,212,255,1) 100%);
+   animation-iteration-count: running;
+   animation-name:selectedMobileProject;
+   animation-duration: 0.5s;
+   cursor: pointer;
+   border-top: 1px solid;
+   border-right: 1px solid;
+   border-color: aqua;
+
 }
 
+@keyframes selectedMobileProject {
+  from { height: 80%}
+  to {height: 100% }
+}
 
 
 /* PROJECT ITEM HEADER STYLES  */
@@ -36,17 +51,37 @@
    height: 50%;
 }
 
-
-
-
-/* 
-to be deleted in the end of dev */
-.projectMobile  img {
-  width: 50px;
+.MobileprojectHeader img {
+  
+  border-radius: 50%;
+  height : 80%;
+  max-height: 55px;
   aspect-ratio: 1/1;
 }
 
-.selectedMobileProject img {
-  width: 50px;
-  aspect-ratio: 1/1;
+
+
+
+.MobileprojectInfo{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:40%;
+  margin-top: 15px;
+
+}
+
+.MobileprojectInfo img {
+   
+   height: 30px;
+   width : 30px;
+   aspect-ratio: 1/1;
+}
+
+
+.MobiletechnologiesLogoListContainer{
+  display : flex; 
+  flex-direction: row;
 }
