@@ -50,9 +50,8 @@
   background-color: #657b5e;
   border-radius: 100px;
 }
-.projects_List::-webkit-scrollbar{ 
-  
-}
+
+
 
 .projectsContainer{
  width: 100%;
@@ -119,10 +118,10 @@
 
 .mobileProjectsListContainer{
  
-  height: 20%;
+  height: 35%;
   width: 100%;
   display:block;
-  overflow-x: auto;
+  overflow-y: auto;
   scrollbar-gutter: stable;
   align-items: center;
   display: flex;
@@ -130,9 +129,44 @@
 
 }
 
+.mobileProjectsListContainer::-webkit-scrollbar {
+  width: 10px;
+  height:10px;
+  margin : 38px;
+}
+
+.mobileProjectsListContainer::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.mobileProjectsListContainer::-webkit-scrollbar-thumb {
+  background-color: #657b5e;
+  border-radius: 100px;
+}
+
+
+
 
 .mobileProjectItemContainer{
-  height: 80%;
+  height: 65%;
   width: 100%;
-  background-color:teal;
+
 }
+
+
+.mobileContiner::-webkit-scrollbar {
+  width: 16px;
+}
+
+.mobileContiner::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.mobileContiner::-webkit-scrollbar-thumb {
+  background-color: #657b5e;
+  border-radius: 100px;
+}
+
+
